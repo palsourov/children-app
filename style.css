@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.image img{
+  border-radius: 50%;
+}
+ .animation{
+    box-shadow: 0 15px 18px 0 color tomato;
+    opacity: 0.5;
+ }
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   margin-top: 100px; 
+   border: none;
+
+}
+.btn button{
+    width: 80px;
+    padding:5px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight:bold;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px black;
+}
+.btn button:hover{
+    background-color: brown;
+    color: white;
+    scale: 1.05;
+    transition: all 1s;
+}
+.btn button:active{
+    scale: 0.8;
+}
+.image {
+   margin-top: 30px;
+   display:inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
